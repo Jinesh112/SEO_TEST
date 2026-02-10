@@ -7,9 +7,31 @@ import Services from "./pages/Services.jsx";
 import Blog from "./pages/Blog.jsx";
 import FAQ from "./pages/FAQ.jsx";
 import Pricing from "./pages/Pricing.jsx";
+import { Helmet } from "react-helmet-async";
 
 function App() {
   return (
+
+    <Helmet>
+
+        <title>Website</title>
+
+        <meta name="description" content="Website description." />
+
+        <meta name="robots" content="index,follow" />
+
+        <meta property="og:title" content="Website" />
+
+        <meta property="og:description" content="Website description." />
+
+        <meta name="twitter:card" content="summary" />
+
+        <meta name="twitter:title" content="Website" />
+
+        <meta name="twitter:description" content="Website description." />
+
+      </Helmet>
+
     <div className="app">
       <nav className="nav">
         <ul>
