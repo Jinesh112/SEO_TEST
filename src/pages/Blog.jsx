@@ -3,8 +3,8 @@ import { Helmet } from "react-helmet-async";
 
 function Blog() {
   return (
-
-    <Helmet>
+    <>
+      <Helmet>
 
         <title>Website</title>
 
@@ -23,11 +23,11 @@ function Blog() {
         <meta name="twitter:description" content="Website description." />
 
       </Helmet>
-
-    <div className="page">
-      <h1>Blog Page</h1>
-      <p>This is a simple blog listing page without SEO meta tags.</p>
-    </div>
+      <div className="page">
+        <h1>Blog Page</h1>
+        <p>This is a simple blog listing page without SEO meta tags.</p>
+      </div>
+    </>
   );
 }
 
