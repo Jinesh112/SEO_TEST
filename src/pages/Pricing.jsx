@@ -3,8 +3,8 @@ import { Helmet } from "react-helmet-async";
 
 function Pricing() {
   return (
-
-    <Helmet>
+    <>
+      <Helmet>
 
         <title>Website</title>
 
@@ -27,10 +27,11 @@ function Pricing() {
 
 
 
-    <div className="page">
-      <h1>Pricing Page</h1>
-      <p>This is a simple pricing page without SEO meta tags.</p>
-    </div>
+      <div className="page">
+        <h1>Pricing Page</h1>
+        <p>This is a simple pricing page without SEO meta tags.</p>
+      </div>
+    </>
   );
 }
 

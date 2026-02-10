@@ -3,8 +3,8 @@ import { Helmet } from "react-helmet-async";
 
 function Services() {
   return (
-
-    <Helmet>
+    <>
+      <Helmet>
 
         <title>Website</title>
 
@@ -26,10 +26,11 @@ function Services() {
 
 
 
-    <div className="page">
-      <h1>Services Page</h1>
-      <p>This is a simple services page without SEO meta tags.</p>
-    </div>
+      <div className="page">
+        <h1>Services Page</h1>
+        <p>This is a simple services page without SEO meta tags.</p>
+      </div>
+    </>
   );
 }
 
